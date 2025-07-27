@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot name="aruco_cube">
+
+  <link name="aruco_cube_link">
+    <!-- Visual appearance -->
+    <visual>
+      <origin xyz="0 0 0.025" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="red_color">
+        <color rgba="1 0 0 1"/> <!-- Red: (R=1, G=0, B=0, Alpha=1) -->
+      </material>
+    </visual>
+
+    <!-- Collision geometry -->
+    <collision>
+      <origin xyz="0 0 0.025" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+    </collision>
+
+    <!-- Inertial -->
+    <inertial>
+      <mass value="0.01"/>
+      <origin xyz="0 0 0.025" rpy="0 0 0"/>
+      <inertia 
+        ixx="0.00001" ixy="0.0"  ixz="0.0"
+        iyy="0.00001" iyz="0.0"
+        izz="0.00001"/>
+    </inertial>
+  </link>
+
+</robot>
