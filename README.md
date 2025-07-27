@@ -44,23 +44,25 @@ Other launch scripts and their purposes:
 **Main directory scripts:**
 - `launch_dual_panda_pick_aruco_track.py`: Dual Panda pick-and-place with ArUco tracking, camera feedback, and error plotting.
 - `launch_dual_panda_pick_and_place_with_camera.py`: Dual Panda pick-and-place with camera feedback and error plotting (no ArUco tracking).
-- `launch_panda_demo.py`: Simple Panda robot circular trajectory demo with visualization.
-- `launch_panda_kinematic_redundancy.py`: Demonstrates kinematic redundancy and null space control for the Panda robot.
-- `launch_panda_lissajous.py`: Panda robot following a Lissajous trajectory in the XZ plane.
 - `launch_panda_pick_and_place.py`: Basic pick-and-place demo for a single Panda robot.
-- `launch_two_panda_with_camera.py`: Two Panda robots with camera simulation (no ArUco tracking).
-- `launch_two_panda.py`: Two Panda robots in a basic setup.
 
 **Example scripts (in `examples/`):**
-- `example_launch_panda_kinematic_redundancy.py`: Kinematic redundancy and null space control for the Panda robot (example version).
-- `example_launch_panda_lissajous.py`: Panda robot following a Lissajous trajectory (example version).
-- `example_launch_panda_circle_tracking.py`: Simple Panda robot circular trajectory demo (example version).
+
+### PyBullet Examples
+- `example_launch_panda_kinematic_redundancy.py`: Demonstrates kinematic redundancy and null space control for the Panda robot.
+- `example_launch_panda_lissajous.py`: Panda robot following a Lissajous trajectory in the XZ plane.
+- `example_launch_panda_circle_tracking.py`: Simple Panda robot circular trajectory demo with visualization.
 - `example_launch_two_panda.py`: Loads two Panda robots and two tables for basic dual-arm simulation.
 - `example_launch_two_panda_with_camera.py`: Two Panda robots with camera simulation and debug visualization.
+
+### ArUco Examples
 - `generate_aruco_marker.py`: Generates an ArUco marker image with a white border for use in vision tasks.
 - `load_aruco_cube.py`: Loads an ArUco-marked cube into the simulation with correct scaling and texture.
-- `3r_kinematic_redundancy.py`: Kinematic redundancy and null space control for a 3R planar robot arm, with visualization.
+
+### Other Examples
+- `3r_kinematic_redundancy.py`: Demonstrates kinematic redundancy and null space control for a 3R planar robot arm, with visualization.
 - `slerp_minimum_jerk_demo.py`: Demo for generating and following a minimum jerk trajectory with SLERP orientation for the Panda robot.
+- `estimate_lissajous_params.py`: Moving Horizon Nonlinear Parameter Estimation from noisy data example.
 
 Each script contains a detailed summary at the top describing its functionality.
 
