@@ -17,6 +17,7 @@ This project simulates a dual Franka Panda robot setup in PyBullet, performing a
 - NumPy
 - OpenCV (with contrib modules for ArUco)
 - Matplotlib
+- scipy
 
 ## Installation
 1. Clone the repository or copy the project files.
