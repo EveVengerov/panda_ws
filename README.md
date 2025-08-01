@@ -1,6 +1,6 @@
-# Dual Panda Pick-and-Place with ArUco Tracking
+# Dual Panda Pick-and-Track with ArUco Marker
 
-This project simulates a dual Franka Panda robot setup in PyBullet, performing a pick-and-place task with ArUco marker tracking and camera-based feedback. The robots interact with cubes and use computer vision to detect and track ArUco markers in real time.
+This project simulates a dual Franka Panda robot setup in PyBullet, performing a pick-and-track task with ArUco marker tracking and camera-based feedback.
 
 ![ArUco Tracking Example](assets/pictures/aruco_track.png)
 
