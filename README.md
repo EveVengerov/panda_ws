@@ -23,8 +23,8 @@ This project simulates a dual Franka Panda robot setup in PyBullet, performing a
 1. Clone the repository or copy the project files.
 2. (Recommended) Create a virtual environment:
    ```bash
-   python3 -m venv pybullet_ws
-   source pybullet_ws/bin/activate
+   python3 -m venv <workspace>
+   source <workspace>/bin/activate
    ```
 3. Install dependencies:
    ```bash
