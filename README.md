@@ -28,7 +28,7 @@ This project simulates a dual Franka Panda robot setup in PyBullet, performing a
    ```
 3. Install dependencies:
    ```bash
-   pip install pybullet numpy opencv-contrib-python matplotlib
+   pip install pybullet numpy opencv-contrib-python matplotlib scipy
    ```
 
 
